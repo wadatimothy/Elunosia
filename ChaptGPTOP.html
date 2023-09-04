@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Janice's Creations</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Janice's Creations</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Janice's Creations!</h2>
+    <p>Explore my beautiful handmade crochet products.</p>
+    <a href="#products" class="btn">View Products</a>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are passionate about crocheting and create unique and high-quality crochet items. Our mission is to spread joy through our handmade products.</p>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product">
+      <img src="Penguin.jpg" alt="Product 1">
+      <h3>Grey Penguin</h3>
+      <p>Item is approx 6x3x3</p>
+    </div>
+    <div class="product">
+      <img src="Baby_Yoda.jpg" alt="Product 2">
+      <h3>Baby Yoda</h3>
+      <p>Item is approx 3x3x3</p>
+    </div>
+    <!-- Add more product divs as needed -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Feel free to reach out to us for inquiries or custom orders.</p>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 My Crocheting Business. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
