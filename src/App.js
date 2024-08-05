@@ -4,6 +4,7 @@ import React from "react";
 import "./App.css";
 import pfp from './elunosiapfp.png';
 import cart from './shoppingcart.png';
+import arrow from './dropdown.png'
 
 function App() {
 	return (
@@ -14,7 +15,7 @@ function App() {
         <nav class="icon"><img class="cart"src={cart}/></nav>
     </header>
     <div class="site-subheader">
-      <a href="#" class="subtitle">Shop All</a>
+      <a href="#" class="subtitle">Shop All<img class="arrow"src={arrow}/></a>
       <a href="#" class="subtitle">Flowers</a>
       <a href="#" class="subtitle">Plushies</a>
       <a href="#" class="subtitle">Accessories</a>
